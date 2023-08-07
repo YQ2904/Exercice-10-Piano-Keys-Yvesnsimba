@@ -5,7 +5,7 @@ keys.forEach(function(key){
   notes.push(document.getElementById(key));
 })
 
-// Write named functions that change the color of the keys below
+// Write named functions that change the color of the keys below.
 
 
 // Write a named function with event handler properties
