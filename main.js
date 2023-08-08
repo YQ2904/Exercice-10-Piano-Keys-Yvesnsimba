@@ -29,11 +29,8 @@ const keyReturn = (event) => {
 
 // Write a named function with event handler properties
 let eventAssignment = (note) => {
-  note.onmousedown = () => {
-    keyPlay(event);
-  };
-  note.onmouseup = () => {
-    keyReturn(event);
+  note.addEventListener ('mousedown', keyPlay);
+  note.addEventListener('mouseup', keyReturn);
   };
 };
 
